@@ -175,29 +175,6 @@
         </div>
    </div>
 
-
-   <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
-
-   <script type="text/javascript">
-       jQuery(function ($) {
-           function init_map1() {
-               var myLocation = new google.maps.LatLng(41.3813509,2.1775725);
-               var mapOptions = {
-                   center: myLocation,
-                   zoom: 15
-               };
-               var marker = new google.maps.Marker({
-                   position: myLocation,
-                   title: "NoPressuRe"
-               });
-               var map = new google.maps.Map(document.getElementById("map1"),
-                       mapOptions);
-               marker.setMap(map);
-           }
-           init_map1();
-       });
-   </script>
-
     <hr>
 
     <!-- Footer -->
@@ -218,6 +195,28 @@
 
 <!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.min.js"></script>
+
+<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
+<script type="text/javascript">
+    jQuery(function ($) {
+        function init_map1() {
+            var myLocation = new google.maps.LatLng(41.3813509,2.1775725);
+            var mapOptions = {
+                center: myLocation,
+                zoom: 15
+            };
+            var marker = new google.maps.Marker({
+                position: myLocation,
+                title: "NoPressuRe"
+            });
+            var map = new google.maps.Map(document.getElementById("map1"),
+                    mapOptions);
+            marker.setMap(map);
+        }
+        init_map1();
+    });
+</script>
 
 </body>
 
