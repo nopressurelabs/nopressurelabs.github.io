@@ -13,7 +13,7 @@ body {
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
 
 .business-header {
-    height: 400px;
+    height: 100%;
     background: url('../images/headers/header.jpg') center center no-repeat scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -24,15 +24,15 @@ body {
 /* Customize the text color and shadow color and to optimize text legibility. */
 
 .wrapper {
-    position: absolute;
     width: 500px;
-    height: 399px;
+    height: 100%;
     top: 50%;
     padding: 40px 50px;
     background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.75);
     text-align: center;
     color: #f2f2f2;
     z-index: 1;
+    border: 1px solid;
 }
 
 .tagline {
@@ -70,6 +70,12 @@ body {
     border: 1px solid #474747;
     background: none repeat scroll 0% 0% transparent;
     color: #474747 !important;
+}
+
+.btn-glass-inverted {
+    border: 1px solid #f7f7f7;
+    background: none repeat scroll 0% 0% transparent;
+    color: #f7f7f7 !important;
 }
 
 footer {
