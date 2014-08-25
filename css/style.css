@@ -59,6 +59,11 @@ body {
     padding: 10px;
 }
 
+.img-circle{
+    border: 1px solid #838383;
+
+}
+
 .btn {
     border-radius: 0px;
     padding: 15px 40px;
