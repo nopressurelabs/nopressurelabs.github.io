@@ -1,13 +1,20 @@
 body {
     padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     font-family: Museo-100;
+    background: #f7f7f7;
+    color: #555555;
 }
+
+.navbar-inverse .navbar-brand {
+    color: #f2f2f2;
+}
+
 
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
 
 .business-header {
     height: 400px;
-    background: url('../images/headers/header_nine.jpg') center center no-repeat scroll;
+    background: url('../images/headers/header.jpg') center center no-repeat scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -16,9 +23,22 @@ body {
 
 /* Customize the text color and shadow color and to optimize text legibility. */
 
+.wrapper {
+    position: absolute;
+    width: 500px;
+    height: 399px;
+    top: 50%;
+    padding: 40px 50px;
+    background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.75);
+    text-align: center;
+    color: #f2f2f2;
+    z-index: 1;
+}
+
 .tagline {
-    text-shadow: 0 0 10px #333333;
-    color: #222222;
+    font-family: Museo-300;
+    text-shadow: 0 0 10px #222222;
+    color: #ededed;
 }
 
 .img-center {
@@ -38,6 +58,18 @@ body {
     height: 70px;
     font-size: 27px;
     padding: 10px;
+}
+
+.btn {
+    border-radius: 0px;
+    padding: 15px 40px;
+    transition: #6363CE 300ms ease 0s, color 300ms ease 0s;
+}
+
+.btn-glass {
+    border: 1px solid #474747;
+    background: none repeat scroll 0% 0% transparent;
+    color: #474747 !important;
 }
 
 footer {
@@ -83,4 +115,12 @@ footer {
     src: url('../fonts/museo/museosans-900.eot?#iefix') format('embedded-opentype'),
     url('../fonts/museo/museosans-900.woff') format('woff'),
     url('../fonts/museo/museosans-900.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('../fonts/glyphicons-halflings-regular.eot');
+    src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/museo/glyphicons-halflings-regular.woff') format('woff'),
+    url('../fonts/museo/glyphicons-halflings-regular.ttf') format('truetype');
 }

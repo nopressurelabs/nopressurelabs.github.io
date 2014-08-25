@@ -17,6 +17,9 @@
     <!-- Core Custom CSS -->
     <link href="css/style.css" rel="stylesheet">
 
+    <!-- Font Awesome CSS -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -29,6 +32,7 @@
 <body>
 
 <!-- Navigation -->
+
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -45,13 +49,16 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li>
-                    <a href="#">About</a>
+                    <a href="#about">About</a>
                 </li>
                 <li>
-                    <a href="#">What we do</a>
+                    <a href="#what-we-do">What we do</a>
                 </li>
                 <li>
-                    <a href="#">Contact</a>
+                    <a href="#contact">Contact</a>
+                </li>
+                <li>
+                    <a href="http://blog.nopressure.co.uk">News</a>
                 </li>
             </ul>
         </div>
@@ -66,7 +73,12 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="tagline">NoPressuRe - Research &amp; Dev Labs</h1>
+                <div class="wrapper">
+                    <h1 class="tagline">NoPressuRe</h1>
+                    <hr>
+                    <hr>
+                    <h3>Research &amp; Dev Labs</h3>
+                </div>
             </div>
         </div>
     </div>
@@ -74,11 +86,19 @@
 
 <!-- Page Content -->
 <div class="container">
+    <div class="row">
+        <div class="col-sm-12" id="about">
+            <h2>About</h2>
+            <p>Introduce the visitor to the business using clear, informative text. Use well-targeted keywords within your sentences to make sure search engines can find the business.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et molestiae similique eligendi reiciendis sunt distinctio odit? Quia, neque, ipsa, adipisci quisquam ullam deserunt accusantium illo iste exercitationem nemo voluptates asperiores.</p>
+
+        </div>
+    </div>
 
     <hr>
 
     <div class="row">
-        <div class="col-sm-8">
+        <div class="col-sm-8" id="what-we-do">
             <h2>What We Do</h2>
             <p>Introduce the visitor to the business using clear, informative text. Use well-targeted keywords within your sentences to make sure search engines can find the business.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et molestiae similique eligendi reiciendis sunt distinctio odit? Quia, neque, ipsa, adipisci quisquam ullam deserunt accusantium illo iste exercitationem nemo voluptates asperiores.</p>
@@ -86,8 +106,8 @@
         </div>
         <div class="col-sm-4">
             <p>
-                <a class="btn btn-default btn-lg" href="#">Call to Action &raquo;</a>
-            </p>
+                <a class="btn btn-glass btn-lg" href="#">Call to Action &raquo;</a>
+                <div id="timeline"></div>
         </div>
     </div>
     <!-- /.row -->
@@ -117,30 +137,23 @@
        <div class="col-md-6">
            <div>
                <div class="panel panel-default">
-                   <div class="text-center map-header">Get in touch</div>
-                   <form role="form">
-                       <div class="row form-group">
-                           <div class="col-md-4 col-sm-4 col-xs-4">
-                               <label for="email" class="sr-only">Your email address</label>
-                               <input type="email" class="form-control" id="email" placeholder="E-mail" data-original-title="" title="">
-                           </div>
-                           <div class="col-md-4 col-sm-4 col-xs-4">
-                               <label for="name" class="sr-only">Your name</label>
-                               <input type="text" class="form-control" id="name" placeholder="Full Name" data-original-title="" title="">
-                           </div>
-                       </div>
-                       <div class="form-group">
-                           <label for="message" class="sr-only">Your message</label>
-                           <textarea class="form-control" rows="3" id="message" placeholder="Message"></textarea>
-                       </div>
-                       <button type="submit" class="btn btn-block btn-glass"><i class="fa fa-check"></i> Send It</button>
-                   </form>
-                   <ul class="list-inline social-links">
-                       <li><a href="#"><i class="fa fa-rss"></i></a></li>
-                       <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                       <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                       <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                   </ul>
+                   <div id="contact" class="text-center map-header">Get in touch</div>
+                   <div class="text-center">
+                       Barcelona<br />
+                       Gotic Quarter<br />
+                       Catalunya - Spain - European Union<br />
+                       #(+34) 69 33 62 344<br />
+                       <a class="btn btn-glass" href="mailto:info@nopressure.co.uk"><i class="fa fa-envelope-o"></i> info @ nopressure.co
+                           .uk</a><br />
+                   </div>
+                   <hr />
+                   <div class="text-center">
+                       <ul class="list-inline social-links">
+                           <li><a href="http://blog.nopressure.co.uk/rss"><i class="fa fa-rss"></i></a></li>
+                           <li><a href="http://twitter.com/nopressure"><i class="fa fa-twitter"></i></a></li>
+                           <li><a href="https://github.com/nopressurelabs"><i class="fa fa-github"></i></a></li>
+                       </ul>
+                   </div>
                </div>
            </div>
        </div>
@@ -149,34 +162,25 @@
                  <div class="panel panel-default">
                       <div class="text-center map-header">Come visiting</div>
                       <div class="panel-body text-center block-address fadingIn transparent">
-                          <div>
-                                Barcelona<br />
-                                Gotic Quarter<br />
-                                Catalunya - Spain - European Union<br />
-                                #(+34) 69 33 62 344<br />
-                                <a href="mailto:info@nopressure.co.uk">info @ nopressure.co.uk</a><br />
-                            </div>
-                            <hr />
                             <div id="map1" class="map">
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+                      </div>
+                 </div>
+             </div>
+       </div>
    </div>
 
-    <hr>
+   <hr>
 
-    <!-- Footer -->
-    <footer>
-        <div class="row">
-            <div class="col-lg-12">
-                <p>Copyright &copy; NoPressuRe 2014 - Crafted in Barcelona, EU</p>
-            </div>
-        </div>
-        <!-- /.row -->
-    </footer>
+   <!-- Footer -->
+   <footer>
+       <div class="row">
+           <div class="col-lg-12">
+               <p>Copyright &copy; NoPressuRe 2014 - Crafted in Barcelona, EU</p>
+           </div>
+       </div>
+       <!-- /.row -->
+   </footer>
 
 </div>
 <!-- /.container -->
@@ -206,6 +210,11 @@
             marker.setMap(map);
         }
         init_map1();
+    });
+</script>
+<script type="text/javascript">
+    jQuery(function ($) {
+
     });
 </script>
 
