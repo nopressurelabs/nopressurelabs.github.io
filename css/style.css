@@ -10,13 +10,13 @@ body {
 }
 
 .navbar-header {
-    padding-left: 60px;
+    padding-left: 100px;
     background: url('../images/logo.png') left center no-repeat scroll;
     background-color: transparent;
-    -webkit-background-size: 60px 60px;
-    -moz-background-size: 60px 60px;
-    background-size: 60px 60px;
-    -o-background-size: 60px 60px;
+    -webkit-background-size: 80px 80px;
+    -moz-background-size: 80px 80px;
+    background-size: 80px 80px;
+    -o-background-size: 80px 80px;
 }
 
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
