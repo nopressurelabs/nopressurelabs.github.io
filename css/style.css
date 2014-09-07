@@ -23,7 +23,7 @@ body {
 
 .business-header {
     height: 100%;
-    background: url('../images/headers/header_19.jpg') center center no-repeat scroll;
+    background: url('../images/headers/header.png') center center no-repeat scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -34,9 +34,8 @@ body {
 
 .wrapper {
     height: 100%;
-    top: 50%;
-    padding: 40px 50px;
-    background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.75);
+    padding: 50px 50px;
+    background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.70);
     text-align: center;
     color: #f2f2f2;
     z-index: 1;
