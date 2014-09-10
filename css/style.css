@@ -5,6 +5,10 @@ body {
     color: #555555;
 }
 
+.navbar-transparent {
+    background: rgba(248, 248, 248, 0.95);
+}
+
 .navbar-inverse .navbar-brand {
     color: #f2f2f2;
 }
@@ -19,10 +23,15 @@ body {
     -o-background-size: 80px 80px;
 }
 
+.intro-section {
+    margin-top: -50px;
+}
+
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
 
 .business-header {
     top: 0;
+    padding-top: 100px;
     height: 100%;
     background: url('../images/headers/header.jpg') center center no-repeat scroll;
     -webkit-background-size: cover;
@@ -30,6 +39,7 @@ body {
     background-size: cover;
     -o-background-size: cover;
 }
+
 
 /* Customize the text color and shadow color and to optimize text legibility. */
 
