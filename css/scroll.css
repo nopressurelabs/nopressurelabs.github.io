@@ -27,6 +27,20 @@ html {
     }
 }
 
+@media(max-width:980px) {
+  .intro-section {
+    background-size: 300% auto;
+  }
+}
+
+@media(max-width:600px) {
+  .tagline {
+    font-size: 2.5em;
+  }
+  
+}
+
+
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
 of those sections to manage the look and feel of the site. */
@@ -34,7 +48,6 @@ of those sections to manage the look and feel of the site. */
 .intro-section {
     height: 110%;
     text-align: center;
-    background: #fff;
 }
 
 .about-section {

@@ -25,6 +25,8 @@ body {
 
 .intro-section {
     margin-top: -50px;
+    background: url('../images/headers/header.jpg') center center no-repeat scroll;
+    background-size: 100% auto;
 }
 
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
@@ -33,34 +35,49 @@ body {
     top: 0;
     padding-top: 100px;
     height: 100%;
-    background: url('../images/headers/header.jpg') center center no-repeat scroll;
+    background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.60);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
 
-
 /* Customize the text color and shadow color and to optimize text legibility. */
 
 .wrapper {
     height: 100%;
     padding: 50px 50px;
-    background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.70);
+    font-family: Museo-500;
     text-align: center;
     color: #f2f2f2;
     z-index: 1;
-    border: 1px solid;
+
 }
 
 .tagline {
-    font-family: Museo-300;
+    font-family: Museo-100;
+    font-size: 5.5em;
     text-shadow: 0 0 10px #222222;
     color: #ededed;
 }
 
+
+h2 .page-scroll {
+  font-size: 3.0em;
+}
+
 .img-center {
     margin: 0 auto;
+}
+
+.box {
+  margin: 10px;
+  width: 350px;
+}
+
+.box-image {
+  padding: 10px;
+  overflow: hidden;
 }
 
 .map {
@@ -70,7 +87,7 @@ body {
     height: 100%;
 }
 
-.map-header {
+.box-header {
     background-color: #ededed;
     color: #222222;
     height: 70px;
