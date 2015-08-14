@@ -70,14 +70,7 @@ h2 .page-scroll {
     margin: 0 auto;
 }
 
-.box {
-  margin: 10px;
-  width: 325px;
-  padding: 0;
-}
-
 .box-image {
-  padding: 10px;
   overflow: hidden;
 }
 
